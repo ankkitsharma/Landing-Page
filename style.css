@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 42px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+}
+
+.signup {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images {
+    display: flex;
+} 
+.introimg {
+    width: 420px;
+    height: auto;
+}
+
+.infoimg {
+    width: 280px;
+    height: 258px;
+}
