@@ -61,15 +61,18 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 30px 230px 70px;
+    padding: 30px 200px 70px;
 }
 
 .info-images {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 } 
 .introimg {
-    width: 420px;
+    min-width: 300px;
+    max-width: 420px;
     height: auto;
 }
 
@@ -89,6 +92,7 @@ button {
 
 .img .para {
     text-align: center;
+    width: 180px;
     margin-top: 8px;
     color: rgb(88, 83, 83);
 }
