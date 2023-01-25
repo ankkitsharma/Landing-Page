@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    
+    font-family: sans-serif;
 }
 
 .header {
@@ -36,12 +36,26 @@ body {
 }
 
 .introduction {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+
+button {
+    width: 100px;
+    padding: 8px 8px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
     font-weight: bold;
 }
 
-button {
-    width: 80px;
-    padding: 3 5px;
+.header button {
+    border: 0px;
+}
+
+.ad-bar button {
+    border-color: white;
 }
 
 .info {
@@ -68,13 +82,15 @@ button {
 
 .information {
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 36px;
     margin-bottom: 40px;
 }
 
 .img .para {
     text-align: center;
     margin-top: 8px;
+    color: rgb(88, 83, 83);
 }
 
 .quote {
@@ -82,7 +98,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #EFE7EB;
-    padding: 70px 200px 60px;
+    padding: 90px 200px 80px;
     
 }
 
@@ -94,23 +110,26 @@ button {
 
 .quoter {
     margin-left: auto;
-    width: 100px;
-    font-weight: bold;
+    width: 150px;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .ad {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
+    padding: 70px 160px;
 }
 
 .ad-bar {
     display: flex;
-    width: 900px;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 40px;
+    padding: 40px 90px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 800px;
 }
 
 .bold {
@@ -121,9 +140,32 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 90px;
 }
 
 .header, .footer {
     background-color: #1F2937;
 }
 
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo, .intro, .ad-bar, .footer {
+    color: white;
+}
+
+.information, .quote {
+    color:#1F2937;
+}
+
+.quotation {
+    font-size: 24px;
+    font-style: italic;
+}
