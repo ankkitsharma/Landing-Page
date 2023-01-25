@@ -8,6 +8,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    padding: 16px 160px 70px;
 }
 
 .navbar {
@@ -46,6 +47,7 @@ button {
 .info {
     display: flex;
     flex-direction: column;
+    padding: 30px 230px 70px;
 }
 
 .info-images {
@@ -77,14 +79,23 @@ button {
 
 .quote {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 720px;
     background-color: #EFE7EB;
+    padding: 70px 200px 60px;
+    
+}
+
+.quoter-bar {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
 }
 
 .quoter {
-    align-self: flex-end;
+    margin-left: auto;
+    width: 100px;
+    font-weight: bold;
 }
 
 .ad {
