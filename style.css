@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 16px 160px;
+    margin: 0;
+    
 }
 
 .header {
@@ -45,7 +46,6 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 40px 60px;
 }
 
 .info-images {
@@ -80,7 +80,7 @@ button {
     flex-direction: column;
     align-items: center;
     width: 720px;
-    padding: 40px 60px;
+    background-color: #EFE7EB;
 }
 
 .quoter {
@@ -111,3 +111,8 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
